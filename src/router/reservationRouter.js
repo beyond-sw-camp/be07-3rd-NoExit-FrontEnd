@@ -1,4 +1,3 @@
-// reservationRouter.js
 
 import ReservationCreate from '@/views/ReservationCreate.vue';
 import ReservationList from '@/views/ReservationList.vue';
@@ -34,12 +33,12 @@ export const reservationRouter = [
     component: StoreReservationList,
   },
 
-    // 로그인한 멤버의 예약 내역
-    // path: '/reservation/detail/:id',
-    // name: 'ReservationDetail',
-    // component: ,
+  //   // 로그인한 멤버의 예약 내역
+  //   // path: '/reservation/detail/:id',
+  //   // name: 'ReservationDetail',
+  //   // component: ,
 
-  },
+  // },
   {
     path: '/reservation/myreservation',
     name: 'MemberReservationList',
